@@ -1,0 +1,17 @@
+{
+  "name": "sass-demo",
+  "version": "1.0.0",
+  "description": "Demo of SASS features",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "compileSass": "sass styles.scss styles.css --embed-sources"
+  },
+  "author": "Chris Demaria",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.5"
+  }
+}
